@@ -79,7 +79,7 @@ const Contact = () => {
                     className="form-control bg-dark text-white"
                     name="message"
                     placeholder="Message"
-                    rows="5"
+                    rows={5}
                     required
                   ></textarea>
                 </div>

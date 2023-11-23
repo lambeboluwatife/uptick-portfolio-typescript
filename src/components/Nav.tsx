@@ -39,36 +39,40 @@ const Nav = () => {
       <div className="social-links">
         <div className="social">
           <a
-            rel="noreferrer"
+            rel="noopener"
             href="https://twitter.com/Danibholie"
             target="_blank"
+            aria-label="twitter profile"
           >
             <i className="fab fa-twitter"></i>
           </a>
         </div>
         <div className="social">
           <a
-            rel="noreferrer"
+            rel="noopener"
             href="https://www.instagram.com/lbd_codes/"
             target="_blank"
+            aria-label="instagram profile"
           >
             <i className="fab fa-instagram"></i>
           </a>
         </div>
         <div className="social">
           <a
-            rel="noreferrer"
+            rel="noopener"
             href="https://www.linkedin.com/in/lambe-boluwatife-870b6136"
             target="_blank"
+            aria-label="linkedin profile"
           >
             <i className="fab fa-linkedin"></i>
           </a>
         </div>
         <div className="social">
           <a
-            rel="noreferrer"
+            rel="noopener"
             href="https://github.com/lambeboluwatife"
             target="_"
+            aria-label="github profile"
           >
             <i className="fab fa-github"></i>
           </a>
