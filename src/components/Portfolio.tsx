@@ -1,6 +1,7 @@
+import React from "react";
 import portfolios from "../data/portfolio";
 
-const Portfolio = () => {
+const Portfolio: React.FC = () => {
   return (
     <div className="portfolio">
       <h1 className="heading">PORTFOLIO</h1>

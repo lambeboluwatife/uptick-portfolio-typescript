@@ -5,7 +5,17 @@ import gkai from "../images/gkai.jpg";
 import camp from "../images/camp.jpg";
 import eventrite from "../images/show.jpg";
 
-const portfolios = [
+interface PortfolioData {
+  name: string;
+  skills: string;
+  image: string;
+  desc: string;
+  live: string;
+  source: string;
+  id: number;
+}
+
+const portfolios: PortfolioData[] = [
   {
     name: "Final Space",
     skills: "HTML5 | CSS | JavaScript | API",

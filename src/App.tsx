@@ -16,9 +16,9 @@ import SideNav from "./components/SideNav";
 const App = () => {
   const location = useLocation();
 
-  const [sideNav, setShowSideNav] = useState(false);
+  const [sideNav, setShowSideNav] = useState<boolean>(false);
 
-  const toggleSideNav = () => {
+  const toggleSideNav: () => void = () => {
     setShowSideNav(!sideNav);
   };
 
